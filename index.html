@@ -1,34 +1,229 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css"> 
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-right" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="container">
+      <h1 class="text-scondary mt-5 fw-bold lh-base">I’m Muskan <br />Glad to see you!</h1>
+      <p class="lead text-dark lh-sm fw-semibold">I’m a software developer! I can help you build a product , feature or
+        website Look
+        through some of my work and experience! If you like what you see and have a project you need coded, don’t
+        hestiate to contact me.</p>
+      <h3 class="fw-semibold text-primary">Let's Connect</h3>
+      <div class="d-flex">
+        <ul class="list-group flex-row">
+          <li class="list-group-item border-0 px-1 fs-3"><a href="#"><i class="fa-brands fa-twitter text-black-50"></i></a>
+          </li>
+          <li class="list-group-item border-0 px-1 fs-3"> <a href="#" target="_blank"> <i
+                class="fa-brands fa-github text-black-50"></i></a></li>
+          <li class="list-group-item border-0 px-1 fs-3"><a href="#" target="_blank"> <i
+                class="fa-brands fa-linkedin-in text-black-50"></i></a></li>
+          <li class="list-group-item border-0 px-1 fs-3"><a href="#" target="_blank"> <i
+                class="fa-solid fa-m text-black-50 "></i></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="card bg-white border-1 rounded-3 shadow mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <img src="images/Snapshoot-Portfolio.svg" alt="" class="card-img-top">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1 class="card-title h3 fw-bold justify mt-5">Tonic</h1>
+              <ul class="d-flex flex-row gap-5 p-0">
+                <li class="list-unstyled h5">CANOPA</li>
+                <li class="text-secondary h6 ">Backend dev</li>
+                <li class="text-secondary h6">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+              <ul class="p-0">
+                <li class="badge text-primary">html</li>
+                <li class="badge text-primary">css</li>
+                <li class="badge text-primary">javascript</li>
+              </ul>
+              <button class="btn btn-primary bg-white text-primary mt-3">see project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-white border-1 rounded-3 shadow mt-5">
+        <div class="row d-flex flex-row-reverse justify-content-center">
+          <div class="col-md-6">
+            <img src="images/Snapshoot-Portfolio.svg" alt="" class="card-img-top">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1 class="card-title h3 fw-bold justify mt-5">Tonic</h1>
+              <ul class="d-flex flex-row gap-5 p-0">
+                <li class="list-unstyled h5">CANOPA</li>
+                <li class="text-secondary h6 ">Backend dev</li>
+                <li class="text-secondary h6">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+              <ul class="p-0">
+                <li class="badge text-primary">html</li>
+                <li class="badge text-primary">css</li>
+                <li class="badge text-primary">javascript</li>
+              </ul>
+              <button class="btn btn-primary bg-white text-primary mt-3">see project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-white border-1 rounded-3 shadow mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <img src="images/Snapshoot-Portfolio.svg" alt="" class="card-img-top">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1 class="card-title h3 fw-bold justify mt-5">Tonic</h1>
+              <ul class="d-flex flex-row gap-5 p-0">
+                <li class="list-unstyled h5">CANOPA</li>
+                <li class="text-secondary h6 ">Backend dev</li>
+                <li class="text-secondary h6">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+              <ul class="p-0">
+                <li class="badge text-primary">html</li>
+                <li class="badge text-primary">css</li>
+                <li class="badge text-primary">javascript</li>
+              </ul>
+              <button class="btn btn-primary bg-white text-primary mt-3">see project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-white flex-row-reverse border-1 rounded-3 shadow mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <img src="images/Snapshoot-Portfolio.svg" alt="" class="card-img-top">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1 class="card-title h3 fw-bold justify mt-5">Tonic</h1>
+              <ul class="d-flex flex-row gap-5 p-0">
+                <li class="list-unstyled h5">CANOPA</li>
+                <li class="text-secondary h6 ">Backend dev</li>
+                <li class="text-secondary h6">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+              <ul class="p-0">
+                <li class="badge text-primary">html</li>
+                <li class="badge text-primary">css</li>
+                <li class="badge text-primary">javascript</li>
+              </ul>
+              <button class="btn btn-primary bg-white text-primary mt-3">see project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5 pt-5">
+      <div class="row">
+        <div id="about" class="col-md-6">
+          <h2 class="fw-bold lh-base">About <br> Myself</h2>
+          <p class="fw-semibold ">Hello I’m a software developer! I can help you build a product , feature or website
+            Look through some of my
+            work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+            me.
+          <p>
+          <h3 class="fw-semibold text-primary">Let's Connect</h3>
+          <div class="d-flex">
+            <ul class="list-group flex-row">
+              <li class="list-group-item border-0 px-1 fs-3"><a href="#"><i
+                    class="fa-brands fa-twitter text-black-50"></i></a>
+              </li>
+              <li class="list-group-item border-0 px-1 fs-3"> <a href="#" target="_blank"> <i class="fa-brands fa-github text-black-50"></i></a></li>
+              <li class="list-group-item border-0 px-1 fs-3"><a href="#" target="_blank"> <i class="fa-brands fa-linkedin-in text-black-50"></i></a></li>
+              <li class="list-group-item border-0 px-1 fs-3"><a href="#" target="_blank"> <i class="fa-solid fa-m text-black-50"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lang col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item border-0">
+              <div class="list-group-item border-0 d-flex justify-content-between flex-row">
+                <h4>Languages</h4>
+                <i class="fa-solid fa-angle-down "></i>
+              </div>
+              <ul class="list-group d-flex flex-row ">
+                <li class="border-0 flex-column d-flex rounded p-2 m-2 bg-secondary fw-semibold"><img
+                    src="images/js.png" alt="Js icon "> JAVASCRIPT</li>
+                <li class="border-0 flex-column d-flex p-2 m-2  rounded bg-secondary fw-semibold"><img
+                    src="images/html.png" alt="Html icon"> HTML</li>
+                <li class="border-0 flex-column d-flex bg-secondary p-2 rounded  m-2 fw-semibold"><img
+                    src="images/css.png" alt="Css icon"> CSS</li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Project</a>
+            <li class="list-group-item border-0 flex-row d-flex justify-content-between ">
+              <h4>Framework </h4><i class="fa-solid fa-angle-right icon"></i>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">contact</a>
+            <li class="list-group-item border-0">
+              <hr>
+            </li>
+            <li class="list-group-item border-0 flex-row d-flex justify-content-between ">
+              <h4>Skill</h4><i class="fa-solid fa-angle-right icon"></i>
+            </li>
+            <li class="list-group-item border-0">
+              <hr>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
